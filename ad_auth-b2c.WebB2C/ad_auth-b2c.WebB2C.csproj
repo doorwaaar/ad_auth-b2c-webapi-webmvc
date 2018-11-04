@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-LogCornerAuth.WebB2C-AECFFDB5-5327-4629-87FA-5BC1EB489DBC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="2.1.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="4.3.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

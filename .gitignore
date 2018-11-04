@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ad_auth-b2c-WebApi/bin/Debug/netcoreapp2.1
+/ad_auth-b2c-WebApi/obj
+/ad_auth-b2c.WebB2C/bin/Debug/netcoreapp2.1
+/ad_auth-b2c.WebB2C/obj
