@@ -15,7 +15,7 @@ namespace LogCornerAuth.WebB2C.Models
         private readonly string _appId;
         private readonly string _appSecret;
         private readonly HttpClient _client;
-        private bool _tokenSet = false;
+        private bool _tokenSet;
 
         public ApiClient(HttpClient client,
             IConfiguration configuration)
